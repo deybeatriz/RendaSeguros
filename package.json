@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "vscode-coding-tracker-server": "^0.6.0"
+  }
+}

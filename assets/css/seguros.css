@@ -1,9 +1,20 @@
-.seguros {
+.seguros { 
     max-width: 1000px;
-
+    padding: 0px 40px;
+    margin: 0 auto;
 }
 
-.title { 
+.seguros-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 15vw);
+    grid-gap: 60px;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media (max-width:800px) {

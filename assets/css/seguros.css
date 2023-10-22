@@ -1,34 +1,59 @@
-.seguros { 
-    max-width: 1000px;
-    padding: 0px 40px;
-    margin: 0 auto;
+.seguros {
+  max-width: 1000px;
+  padding: 0px 40px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.623);
 }
 
 .seguros-card {
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.seguros-card-item {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  max-width: 190px;
+  
+}
+
+.seguros-card-item img {
+  max-width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.seguros-card-item {
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.seguros-card-item:hover {
+  transform: scale(1.05);
+}
+
+.seguros h1 {
+  padding: 20px;
+}
+
+.seguros-card-item h2 {
+  margin-top: 10px;
 }
 
 
-.seguros-card-item img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+@media (max-width: 800px) {
 }
 
-.seguros-card-item h1 {
-    text-align: center;
-    font-size: 2.25rem;
-    padding: 20px 0px;
+@media (max-width: 600px) {
 }
 
-@media (max-width:800px) {
-
-}
-
-@media (max-width:600px) {
-
-}
-
-@media (max-width:400px) {
-
+@media (max-width: 400px) {
 }

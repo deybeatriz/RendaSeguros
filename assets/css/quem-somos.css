@@ -1,0 +1,11 @@
+
+.quem-somos h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.quem-somos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 70px;
+}

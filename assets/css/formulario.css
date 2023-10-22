@@ -1,0 +1,6 @@
+.formulario {
+    max-width: 1000px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,26 @@
+.nosso-time {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.623);
+    max-width: 1000px;
+    padding: 0px 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nosso-time h1 {
+    padding: 30px 0px;
+}
+
+.time-galeria {
+    padding-bottom:50px; 
+  }
+
+.time-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.time-galeria-item img {
+    height: 180px;
+    border-radius: 50%;
+}

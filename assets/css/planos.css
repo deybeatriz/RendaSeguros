@@ -1,11 +1,15 @@
 .planos {
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.623);
+  max-width: 1000px;
+  padding: 0px 40px;
+  margin: 0 auto;
 }
 
 .planos h1 {
-  padding-top: 20px;
+  padding-top: 30px 0px;
 }
+
 .planos-galeria {
   display: flex;
   flex-wrap: wrap;

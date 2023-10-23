@@ -1,41 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .header {
   height: 80px;
   margin: 0 auto;
   display: flex;
-  padding: 0px 90px;
+  padding: 0px 70px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--cor-contraste);
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    text-decoration: none;
-
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
 }
 
 .logo img {
-  width: 50px;
-}
-
-.logo p {
-    font-family:'Times New Roman', Times, serif; 
-    font-size: 1.7rem;
-    color: white;
+  width: 60px;
 }
 
 .header-menu {
   display: flex;
-  flex-wrap: wrap; /* caso a vierport diminua, os links irão ficar um abaixo do outro */
+  flex-wrap: wrap;
   gap: 5px;
 }
 
 .header-menu a {
-  font-size: 0.85rem;
+  font-size: 1rem;
   line-height: 1.25;
   padding: 10px 12px;
   color: white;
@@ -43,20 +36,37 @@
   text-decoration: none;
 }
 
-.header-menu a:hover{
+.header-menu a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 900px) {
-    .header {
-        flex-direction: column;
-        gap: 20px;
-    }
+@media (max-width: 980px) {
+  .header {
+    padding: 0px 20px;
+  }
+  .header-menu {
+    gap: 0px;
+  }
 
-    .header-menu a {
-        background-color: rgba(250, 235, 215, 0.651);
-        border-radius: 4px;
-        padding: 8px 16px;
-    }
+  .header-menu a {
+    font-size: 0.9rem;
+  }
 }
 
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 735px) {
+  .header {
+    height: 300px;
+    text-align: center;
+    .header-menu {
+      flex-direction: column;
+    }
+  }
+}

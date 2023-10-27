@@ -10,8 +10,24 @@
     text-align: center;
 }
 
+.quem-somos h2 {
+    padding: 0px 25px;
+
+}
+
+.quem-somos p {
+    text-align: justify;
+    padding: 0px 25px;
+}
+
 .quem-somos-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
+}
+
+.quem-somos-img img {
+    height: 380px;
+    border-radius: 15px;
+    margin: auto;
 }

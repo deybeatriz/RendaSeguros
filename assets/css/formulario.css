@@ -6,3 +6,30 @@
     padding: 0px 40px;
     margin: 0 auto;
 }
+
+form {
+    max-width: 350px; 
+    margin: 0 auto; 
+}
+
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
+button {
+    background-color: var(--cor-contraste); 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+

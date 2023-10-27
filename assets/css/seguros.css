@@ -22,7 +22,6 @@
   gap: 10px 20px;
   padding: 20px;
   max-width: 190px;
-  
 }
 
 .seguros-card-item img {
@@ -48,12 +47,8 @@
   margin-top: 10px;
 }
 
-
-@media (max-width: 800px) {
-}
-
-@media (max-width: 600px) {
-}
-
 @media (max-width: 400px) {
+  .seguros {
+    padding: 0px 20px;
+  }
 }

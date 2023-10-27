@@ -24,3 +24,27 @@
     height: 180px;
     border-radius: 50%;
 }
+
+@media (max-width: 760px) {
+    .time-galeria {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .time-galeria-item img {
+        height: 280px;
+    }
+}
+
+
+@media (max-width: 415px) {
+    .time-galeria-item img {
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .nosso-time {
+        padding: 0px 20px;
+    }
+}
+

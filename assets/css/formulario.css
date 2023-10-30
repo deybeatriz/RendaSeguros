@@ -1,35 +1,81 @@
 .formulario {
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.623);
-    padding: 0px 40px;
-    margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.623);
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.formulario h1 {
+  margin: 0px 40px;
+  font-size: 2.6rem;
+
 }
 
 form {
-    max-width: 350px; 
-    margin: 0 auto; 
+  max-width: 330px;
+  margin: 0 auto;
 }
-
 
 input[type="text"],
 input[type="number"],
 select {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
 }
 
 input[type="checkbox"] {
-    margin-right: 5px; 
+  margin-right: 5px;
+  height: 18px;
+  width: 18px;
 }
 
-button {
-    background-color: var(--cor-contraste); 
-    color: #fff; 
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+#button-form {
+  background-color: var(--cor-contraste);
+  color: #fff;
+  margin: 20px auto;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  display: block;
 }
 
+#button-form > p {
+    font-size: .95rem;
+}
+
+@media (max-width: 860px) {
+  .formulario {
+    grid-template-columns: 1fr;
+    padding: 40px 0px;
+  }
+  .formulario h1 {
+    text-align: center;
+    margin: 0px 20px 40px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .formulario h1 {
+    font-size: 2rem;
+  }
+
+  form {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .formulario h1 {
+    font-size: 1.6rem;
+  }
+
+  form {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+}

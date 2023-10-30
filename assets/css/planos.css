@@ -13,7 +13,6 @@
 .planos-galeria {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 30px;
   max-width: 1000px;
   margin: 0 auto;
@@ -25,8 +24,37 @@
   height: 190px;
 }
 
+@media (max-width: 930px) {
+  .planos-item {
+    height: 170px;
+  }
+
+  .planos {
+    padding: 0px;
+  }
+
+  .planos-galeria {
+    gap: 0 px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 770px) {
+  .planos-item {
+    height: 150px;
+  }
+}
+
 @media (max-width: 400px) {
   .planos {
     padding: 0px 20px;
+  }
+
+  .planos-item {
+    height: 150px;
+  }
+
+  .planos-galeria {
+    gap: 0 px;
   }
 }

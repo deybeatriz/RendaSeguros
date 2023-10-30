@@ -1,6 +1,5 @@
 .seguros {
   max-width: 1000px;
-  padding: 0px 40px;
   margin: 0 auto;
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.623);
@@ -9,18 +8,18 @@
 .seguros-card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-around;
+  gap: 20px 0px;
   max-width: 1000px;
   margin: 0 auto;
-  justify-content: space-around;
+  padding-bottom: 30px;
 }
 
 .seguros-card-item {
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 0px 20px;
-  padding: 10px 35px;
+  padding: 10px 32px;
   max-width: 190px;
 }
 
@@ -47,22 +46,26 @@
   margin-top: 10px;
 }
 
-
-
-@media (max-width: 900px) {
+@media (max-width: 935px) {
+  .seguros-card {
+    justify-content: center;
+    gap: 26px;
+  }
   .seguros-card-item {
     padding: 0px 10px;
   }
 }
 
 @media (max-width: 520px) {
-  .seguros {
-    padding: 0px;
-  }
-  
   .seguros-card {
-    gap: 5px ;
+    gap: 5px;
   }
 
-  
+  .seguros-card-item img {
+    height: 160px;
+  }
+
+  .seguros-card-item {
+    max-width: 160px;
+  }
 }

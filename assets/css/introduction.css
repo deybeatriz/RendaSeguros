@@ -6,7 +6,7 @@
   grid-template-columns: 2fr 1fr;
   gap: 50px;
   align-items: center;
-  height: 600px;
+  height: 550px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.623);
 }
 
@@ -17,29 +17,36 @@
 .introduction-text h1 {
   font-size: 3.4rem;
   line-height: 1.4;
-  margin-bottom: 30px;
+  margin: 0px 0px 30px 60px;
 }
 
 .contato {
-  margin-left: 90px;
   padding: 15px 100px;
   background-color: var(--cor-contraste);
   color: white;
   border-radius: 12px;
   justify-self: left;
+  display: block;
+  margin: 0 auto;
 }
 
 .introduction img {
   border-radius: 20%;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1035px) {
   .introduction-text h1 {
     font-size: 3rem;
   }
+}
 
-  .contato {
-    margin-left: 35px;
+@media (max-width: 950px) {
+  .introduction {
+    padding: 0px 55px;
+  }
+
+  .introduction-text h1 {
+    margin-left: 25px;
   }
 }
 
@@ -49,7 +56,9 @@
   }
 
   .introduction-text h1 {
-    font-size: 2.7rem;
+    font-size: 2.6rem;
+    margin-left: 0px;
+
   }
 
   .contato {

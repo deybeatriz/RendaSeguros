@@ -48,3 +48,9 @@
     }
 }
 
+@media (max-width: 300px) {
+    .time-galeria-item img {
+        height: 150px;
+    }
+}
+

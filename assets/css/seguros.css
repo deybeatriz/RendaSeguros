@@ -64,3 +64,13 @@
     max-width: 160px;
   }
 }
+
+@media (max-width: 365px) {
+  .seguros-card-item img {
+    height: 120px;
+  }
+
+  .seguros-card-item {
+    max-width: 120px;
+  }
+}

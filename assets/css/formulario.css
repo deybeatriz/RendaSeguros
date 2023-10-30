@@ -47,6 +47,12 @@ input[type="checkbox"] {
     font-size: .95rem;
 }
 
+#button-form:hover {
+  background-color: #051a31;
+  cursor: pointer;
+}
+
+
 @media (max-width: 860px) {
   .formulario {
     grid-template-columns: 1fr;

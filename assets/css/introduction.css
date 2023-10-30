@@ -17,7 +17,7 @@
 .introduction-text h1 {
   font-size: 3.4rem;
   line-height: 1.4;
-  margin: 0px 0px 30px 60px;
+  margin: 0px 0px 30px 80px;
 }
 
 .contato {
@@ -28,6 +28,11 @@
   justify-self: left;
   display: block;
   margin: 0 auto;
+}
+
+.contato:hover {
+  background-color: #051a31;
+  cursor: pointer;
 }
 
 .introduction img {

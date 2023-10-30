@@ -31,11 +31,6 @@
 
 .seguros-card-item {
   text-align: center;
-  transition: transform 0.2s;
-}
-
-.seguros-card-item:hover {
-  transform: scale(1.05);
 }
 
 .seguros h1 {
